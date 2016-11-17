@@ -7,6 +7,7 @@ target 'EpiquoteSwift' do
 
   # Pods for EpiquoteSwift
   pod 'IGListKit'
+  pod 'PureLayout'
 
   target 'EpiquoteSwiftTests' do
     inherit! :search_paths
