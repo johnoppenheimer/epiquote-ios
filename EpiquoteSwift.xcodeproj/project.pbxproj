@@ -9,10 +9,16 @@
 /* Begin PBXBuildFile section */
 		3D462EA447599CDED8EE3497 /* Pods_EpiquoteSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86A04094671F93BE1A4163D /* Pods_EpiquoteSwiftTests.framework */; };
 		776F7E9D37FB7F485121AB7E /* Pods_EpiquoteSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B88197D2FEF14325CF81354 /* Pods_EpiquoteSwift.framework */; };
+		9C6352A31DDE0BE300024486 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6352A21DDE0BE300024486 /* TabBarViewController.swift */; };
+		9C6352A51DDE0C6500024486 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6352A41DDE0C6500024486 /* QuotesViewController.swift */; };
+		9C6352A71DDE11BD00024486 /* LatestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6352A61DDE11BD00024486 /* LatestViewController.swift */; };
+		9C6352A91DDE11F700024486 /* BestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6352A81DDE11F700024486 /* BestViewController.swift */; };
+		9C6352AC1DDE129E00024486 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6352AB1DDE129E00024486 /* Quote.swift */; };
+		9C6352AF1DDE144C00024486 /* QuoteSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6352AE1DDE144C00024486 /* QuoteSectionController.swift */; };
+		9C6352B11DDE14FE00024486 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6352B01DDE14FE00024486 /* Utilities.swift */; };
+		9C6352B41DDE167500024486 /* ContextCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6352B31DDE167500024486 /* ContextCollectionViewCell.swift */; };
+		9C6352B61DDE16EF00024486 /* ContentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6352B51DDE16EF00024486 /* ContentCollectionViewCell.swift */; };
 		F40804B01A56BEA80058280B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40804AF1A56BEA80058280B /* AppDelegate.swift */; };
-		F40804B21A56BEA80058280B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40804B11A56BEA80058280B /* FirstViewController.swift */; };
-		F40804B41A56BEA80058280B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40804B31A56BEA80058280B /* SecondViewController.swift */; };
-		F40804B71A56BEA80058280B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40804B51A56BEA80058280B /* Main.storyboard */; };
 		F40804B91A56BEA80058280B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F40804B81A56BEA80058280B /* Images.xcassets */; };
 		F40804BC1A56BEA80058280B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F40804BA1A56BEA80058280B /* LaunchScreen.xib */; };
 		F40804C81A56BEA80058280B /* EpiquoteSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40804C71A56BEA80058280B /* EpiquoteSwiftTests.swift */; };
@@ -32,15 +38,21 @@
 		7395B78A965D3F5B4306B2D8 /* Pods-EpiquoteSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpiquoteSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EpiquoteSwiftTests/Pods-EpiquoteSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		7B88197D2FEF14325CF81354 /* Pods_EpiquoteSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EpiquoteSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		904345CA0F8B07EEE9BC2C6C /* Pods-EpiquoteSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpiquoteSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EpiquoteSwift/Pods-EpiquoteSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		9C6352A21DDE0BE300024486 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		9C6352A41DDE0C6500024486 /* QuotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
+		9C6352A61DDE11BD00024486 /* LatestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatestViewController.swift; sourceTree = "<group>"; };
+		9C6352A81DDE11F700024486 /* BestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestViewController.swift; sourceTree = "<group>"; };
+		9C6352AB1DDE129E00024486 /* Quote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Quote.swift; path = models/Quote.swift; sourceTree = "<group>"; };
+		9C6352AE1DDE144C00024486 /* QuoteSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuoteSectionController.swift; path = sections/QuoteSectionController.swift; sourceTree = "<group>"; };
+		9C6352B01DDE14FE00024486 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		9C6352B31DDE167500024486 /* ContextCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContextCollectionViewCell.swift; path = views/ContextCollectionViewCell.swift; sourceTree = "<group>"; };
+		9C6352B51DDE16EF00024486 /* ContentCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentCollectionViewCell.swift; path = views/ContentCollectionViewCell.swift; sourceTree = "<group>"; };
 		A1BD685ED0602620A16D62C2 /* Pods-EpiquoteSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpiquoteSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EpiquoteSwiftTests/Pods-EpiquoteSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B86A04094671F93BE1A4163D /* Pods_EpiquoteSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EpiquoteSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAFA6A29398242055FACB6FE /* Pods-EpiquoteSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpiquoteSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-EpiquoteSwift/Pods-EpiquoteSwift.release.xcconfig"; sourceTree = "<group>"; };
 		F40804AA1A56BEA80058280B /* EpiquoteSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpiquoteSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F40804AE1A56BEA80058280B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F40804AF1A56BEA80058280B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F40804B11A56BEA80058280B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		F40804B31A56BEA80058280B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		F40804B61A56BEA80058280B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F40804B81A56BEA80058280B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F40804BB1A56BEA80058280B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F40804C11A56BEA80058280B /* EpiquoteSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EpiquoteSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +100,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9C6352AA1DDE128600024486 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C6352AB1DDE129E00024486 /* Quote.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9C6352AD1DDE142700024486 /* SectionControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9C6352AE1DDE144C00024486 /* QuoteSectionController.swift */,
+			);
+			name = SectionControllers;
+			sourceTree = "<group>";
+		};
+		9C6352B21DDE166000024486 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9C6352B31DDE167500024486 /* ContextCollectionViewCell.swift */,
+				9C6352B51DDE16EF00024486 /* ContentCollectionViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		F40804A11A56BEA80058280B = {
 			isa = PBXGroup;
 			children = (
@@ -111,13 +148,18 @@
 		F40804AC1A56BEA80058280B /* EpiquoteSwift */ = {
 			isa = PBXGroup;
 			children = (
+				9C6352B21DDE166000024486 /* Views */,
+				9C6352AD1DDE142700024486 /* SectionControllers */,
+				9C6352AA1DDE128600024486 /* Models */,
 				F40804AF1A56BEA80058280B /* AppDelegate.swift */,
-				F40804B11A56BEA80058280B /* FirstViewController.swift */,
-				F40804B31A56BEA80058280B /* SecondViewController.swift */,
-				F40804B51A56BEA80058280B /* Main.storyboard */,
+				9C6352A21DDE0BE300024486 /* TabBarViewController.swift */,
+				9C6352A41DDE0C6500024486 /* QuotesViewController.swift */,
+				9C6352A61DDE11BD00024486 /* LatestViewController.swift */,
+				9C6352A81DDE11F700024486 /* BestViewController.swift */,
 				F40804B81A56BEA80058280B /* Images.xcassets */,
 				F40804BA1A56BEA80058280B /* LaunchScreen.xib */,
 				F40804AD1A56BEA80058280B /* Supporting Files */,
+				9C6352B01DDE14FE00024486 /* Utilities.swift */,
 			);
 			path = EpiquoteSwift;
 			sourceTree = "<group>";
@@ -234,7 +276,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F40804B71A56BEA80058280B /* Main.storyboard in Resources */,
 				F40804BC1A56BEA80058280B /* LaunchScreen.xib in Resources */,
 				F40804B91A56BEA80058280B /* Images.xcassets in Resources */,
 			);
@@ -347,9 +388,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F40804B41A56BEA80058280B /* SecondViewController.swift in Sources */,
+				9C6352A91DDE11F700024486 /* BestViewController.swift in Sources */,
+				9C6352A31DDE0BE300024486 /* TabBarViewController.swift in Sources */,
+				9C6352A71DDE11BD00024486 /* LatestViewController.swift in Sources */,
+				9C6352AF1DDE144C00024486 /* QuoteSectionController.swift in Sources */,
+				9C6352B61DDE16EF00024486 /* ContentCollectionViewCell.swift in Sources */,
 				F40804B01A56BEA80058280B /* AppDelegate.swift in Sources */,
-				F40804B21A56BEA80058280B /* FirstViewController.swift in Sources */,
+				9C6352AC1DDE129E00024486 /* Quote.swift in Sources */,
+				9C6352B11DDE14FE00024486 /* Utilities.swift in Sources */,
+				9C6352B41DDE167500024486 /* ContextCollectionViewCell.swift in Sources */,
+				9C6352A51DDE0C6500024486 /* QuotesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,14 +420,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F40804B51A56BEA80058280B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F40804B61A56BEA80058280B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F40804BA1A56BEA80058280B /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
