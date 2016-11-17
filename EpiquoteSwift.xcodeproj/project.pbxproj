@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D462EA447599CDED8EE3497 /* Pods_EpiquoteSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86A04094671F93BE1A4163D /* Pods_EpiquoteSwiftTests.framework */; };
+		776F7E9D37FB7F485121AB7E /* Pods_EpiquoteSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B88197D2FEF14325CF81354 /* Pods_EpiquoteSwift.framework */; };
 		F40804B01A56BEA80058280B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40804AF1A56BEA80058280B /* AppDelegate.swift */; };
 		F40804B21A56BEA80058280B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40804B11A56BEA80058280B /* FirstViewController.swift */; };
 		F40804B41A56BEA80058280B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40804B31A56BEA80058280B /* SecondViewController.swift */; };
@@ -27,6 +29,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7395B78A965D3F5B4306B2D8 /* Pods-EpiquoteSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpiquoteSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EpiquoteSwiftTests/Pods-EpiquoteSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		7B88197D2FEF14325CF81354 /* Pods_EpiquoteSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EpiquoteSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		904345CA0F8B07EEE9BC2C6C /* Pods-EpiquoteSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpiquoteSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EpiquoteSwift/Pods-EpiquoteSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		A1BD685ED0602620A16D62C2 /* Pods-EpiquoteSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpiquoteSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EpiquoteSwiftTests/Pods-EpiquoteSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B86A04094671F93BE1A4163D /* Pods_EpiquoteSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EpiquoteSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFA6A29398242055FACB6FE /* Pods-EpiquoteSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpiquoteSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-EpiquoteSwift/Pods-EpiquoteSwift.release.xcconfig"; sourceTree = "<group>"; };
 		F40804AA1A56BEA80058280B /* EpiquoteSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpiquoteSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F40804AE1A56BEA80058280B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F40804AF1A56BEA80058280B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				776F7E9D37FB7F485121AB7E /* Pods_EpiquoteSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +61,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D462EA447599CDED8EE3497 /* Pods_EpiquoteSwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E55F55AD15AE7635ABE7E15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				904345CA0F8B07EEE9BC2C6C /* Pods-EpiquoteSwift.debug.xcconfig */,
+				CAFA6A29398242055FACB6FE /* Pods-EpiquoteSwift.release.xcconfig */,
+				A1BD685ED0602620A16D62C2 /* Pods-EpiquoteSwiftTests.debug.xcconfig */,
+				7395B78A965D3F5B4306B2D8 /* Pods-EpiquoteSwiftTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7B39E224DB3434DBD0FE217F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B88197D2FEF14325CF81354 /* Pods_EpiquoteSwift.framework */,
+				B86A04094671F93BE1A4163D /* Pods_EpiquoteSwiftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F40804A11A56BEA80058280B = {
 			isa = PBXGroup;
 			children = (
 				F40804AC1A56BEA80058280B /* EpiquoteSwift */,
 				F40804C41A56BEA80058280B /* EpiquoteSwiftTests */,
 				F40804AB1A56BEA80058280B /* Products */,
+				2E55F55AD15AE7635ABE7E15 /* Pods */,
+				7B39E224DB3434DBD0FE217F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,9 +154,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F40804CB1A56BEA80058280B /* Build configuration list for PBXNativeTarget "EpiquoteSwift" */;
 			buildPhases = (
+				E96679E1CD3F92F52620F523 /* [CP] Check Pods Manifest.lock */,
 				F40804A61A56BEA80058280B /* Sources */,
 				F40804A71A56BEA80058280B /* Frameworks */,
 				F40804A81A56BEA80058280B /* Resources */,
+				76323977E12A3C31B9C97ADF /* [CP] Embed Pods Frameworks */,
+				A5E0498577AD469D315F4F30 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F40804CE1A56BEA80058280B /* Build configuration list for PBXNativeTarget "EpiquoteSwiftTests" */;
 			buildPhases = (
+				2ED81D8E83ED95DCA02F59B6 /* [CP] Check Pods Manifest.lock */,
 				F40804BD1A56BEA80058280B /* Sources */,
 				F40804BE1A56BEA80058280B /* Frameworks */,
 				F40804BF1A56BEA80058280B /* Resources */,
+				8AAD2CB64BD4E221BD2DD397 /* [CP] Embed Pods Frameworks */,
+				0F8798F43901D376461496C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -208,6 +246,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F8798F43901D376461496C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EpiquoteSwiftTests/Pods-EpiquoteSwiftTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2ED81D8E83ED95DCA02F59B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		76323977E12A3C31B9C97ADF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EpiquoteSwift/Pods-EpiquoteSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AAD2CB64BD4E221BD2DD397 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EpiquoteSwiftTests/Pods-EpiquoteSwiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5E0498577AD469D315F4F30 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EpiquoteSwift/Pods-EpiquoteSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E96679E1CD3F92F52620F523 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F40804A61A56BEA80058280B /* Sources */ = {
@@ -339,6 +470,7 @@
 		};
 		F40804CC1A56BEA80058280B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 904345CA0F8B07EEE9BC2C6C /* Pods-EpiquoteSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EpiquoteSwift/Info.plist;
@@ -349,6 +481,7 @@
 		};
 		F40804CD1A56BEA80058280B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAFA6A29398242055FACB6FE /* Pods-EpiquoteSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EpiquoteSwift/Info.plist;
@@ -359,6 +492,7 @@
 		};
 		F40804CF1A56BEA80058280B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1BD685ED0602620A16D62C2 /* Pods-EpiquoteSwiftTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -378,6 +512,7 @@
 		};
 		F40804D01A56BEA80058280B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7395B78A965D3F5B4306B2D8 /* Pods-EpiquoteSwiftTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
